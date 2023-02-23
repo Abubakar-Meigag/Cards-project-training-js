@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 0px;
+}
+
+.container{
+    width: 120px;
+    background: darkred;
+    color: beige;
+}
+.container p{
+    padding: 8px;
+}
+.container p:hover, button:hover{
+    background: rgb(54, 57, 69);
+    cursor: pointer;
+}
+button{
+    background: darkred;
+    color: beige;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#close{
+    position: absolute;
+    left: 125px;
+}
+.hide{
+    display: none;
+}
